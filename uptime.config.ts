@@ -6,7 +6,7 @@
   { link: 'https://am.809098.xyz', label: '个人博客' },
   { link: 'https://809098.xyz', label: 'Blog', highlight: true }
 ]
-};
+},
 const workerConfig = {
   // Write KV at most every 3 minutes unless the status changed
   kvWriteCooldownMinutes: 3,
