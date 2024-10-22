@@ -3,9 +3,9 @@
   title: "潇恒's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   llinks: [
-  { "link": "https://z.962456.xyz", "label": "影视站" },
-  { "link": "https://xhy23-qinglong-01.hf.space", "label": "青龙", "highlight": true }
-],
+  { link: 'https://z.962456.xyz', label: '影视站' },
+  { link: 'https://xhy23-qinglong-01.hf.space', label: '青龙', highlight: true }
+];
 }
 const workerConfig = {
   // Write KV at most every 3 minutes unless the status changed
