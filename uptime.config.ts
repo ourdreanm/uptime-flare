@@ -1,4 +1,4 @@
-const pageConfig = {
+//const pageConfig = {
   // Title for your status page
   title: "潇恒's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
@@ -26,9 +26,9 @@ const workerConfig = {
       // `target` is a valid URL
       target: 'https://z.962456.xyz',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'This is a tooltip for this monitor',
+      //tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-        // statusPageLink: 'https://am.809098.xyz',
+        statusPageLink: 'https://am.809098.xyz',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       // expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
@@ -54,7 +54,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://xhy23-qinglong-01.hf.space',
-      tooltip: 'My production server monitor',
+      //tooltip: 'My production server monitor',
       //statusPageLink: 'https://809098.xyz',
       timeout: 10000,
     },
